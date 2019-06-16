@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+}
+#playground{
+    height: 100vh;
+    width:100vw;
+    background-image:url("img.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+#pitch-invader-box{
+    height: 150px;
+    width:100px;
+    background-color: rgb(121, 35, 35);
+    box-shadow: 2px 0px 7px 5px rgb(83, 27, 27);
+    color: white;
+    text-align: center;
+    position: absolute;
+    top:250px;
+    left:790px;
+
+}
+
+#invader{
+    height: 100px;
+    width:100px;
+    border-radius: 50%;
+    background-image: url("invader.png");
+    background-size: cover;
+    
+
+}
